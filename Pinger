@@ -1,0 +1,128 @@
+@echo off
+:a
+mode 100,50
+color C
+
+title Custom IP Pinger With Your Name : Made by @Peter_The_Creator
+
+:greeting
+cls
+
+ ██████╗  ██████╗ ██╗     ███████╗        ███╗   ██╗ ██████╗  ██████╗ ██╗
+██╔════╝ ██╔═══██╗██║     ██╔════╝        ████╗  ██║██╔═══██╗██╔════╝ ██║
+██║  ███╗██║   ██║██║     █████╗          ██╔██╗ ██║██║   ██║██║  ███╗██║
+██║   ██║██║   ██║██║     ██╔══╝          ██║╚██╗██║██║   ██║██║   ██║██║
+╚██████╔╝╚██████╔╝███████╗███████╗        ██║ ╚████║╚██████╔╝╚██████╔╝██║
+ ╚═════╝  ╚═════╝ ╚══════╝╚══════╝        ╚═╝  ╚═══╝ ╚═════╝  ╚═════╝ ╚═╝
+                                                                         
+    ██╗    ██╗██╗ ██████╗ ███████╗██╗     ███████╗███╗   ███╗            
+    ██║    ██║██║██╔═══██╗██╔════╝██║     ██╔════╝████╗ ████║            
+    ██║ █╗ ██║██║██║   ██║███████╗██║     █████╗  ██╔████╔██║            
+    ██║███╗██║██║██║   ██║╚════██║██║     ██╔══╝  ██║╚██╔╝██║            
+    ╚███╔███╔╝██║╚██████╔╝███████║███████╗███████╗██║ ╚═╝ ██║            
+     ╚══╝╚══╝ ╚═╝ ╚═════╝ ╚══════╝╚══════╝╚══════╝╚═╝     ╚═╝    
+                                                                     
+echo           #-----------------# #-----------#
+echo           # @Peter_The_Creator# # IP PINGER #
+echo           #-----------------# #-----------#
+echo !Name doesnt get logged just for a better experience!
+set /p Name= Enter A Name:
+title Oi %Name% Target=
+set /p IP= Smack Ip here %Name%:
+title Oi %Name% Target= %IP%
+echo Target = %IP%
+echo RIP WIFI ----%IP% -- APOLLO OP
+title WiFi eat shit nerd
+:top
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been taken down...)
+ping -t 2 0 10 127.0.0.1 >nul
+color 01
+echo -- %Name% OP --
+title gole 
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...)
+ping -t 2 0 10 127.0.0.1 >nul
+color 02
+echo -- %Name% OP --
+title gole nogi 
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 03
+echo -- %Name% OP --
+title gole nogi wioslem
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 04
+echo -- %Name% OP --
+title gole nogi wioslem
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...)
+ping -t 2 0 10 127.0.0.1 >nul
+color 05
+echo -- %Name% OP --
+title gole nogi wioslem
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 06
+echo -- %Name% OP --
+title gole nogi wioslem
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 07
+echo -- %Name% OP --
+title gole nogi wioslem
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 08
+echo -- %Name% OP --
+title gole nogi wioslem T
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 09
+echo -- %Name% OP --
+title gole nogi wioslem TO
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...)
+ping -t 2 0 10 127.0.0.1 >nul
+color 0b
+echo -- %Name% OP --
+title gole nogi wioslem TOO
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 0c
+echo -- %Name% OP --
+title gole nogi wioslem TOO
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 0d
+echo -- %Name% OP --
+title gole nogi wioslem TOO O
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...)
+ping -t 2 0 10 127.0.0.1 >nul
+color 0e
+echo -- %Name% OP --
+title gole nogi wioslem OP
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...)
+ping -t 2 0 10 127.0.0.1 >nul
+color 0f
+echo -- %Name% OP --
+title gole nogi wioslem TOO OP LOL
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...)
+ping -t 2 0 10 127.0.0.1 >nul
+echo -- %Name% OP --
+title Get fucked
+echo Made by @Peter_The_Creator
+echo %Name% going for %IP% whos gonna get fucked
+GoTo top
